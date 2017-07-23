@@ -10,9 +10,9 @@ class PagesController extends Controller
     public function getTestPage(Request $request)
     {
         $patch = new Patch();
-        $patch->x = $request->x;
-        $patch->y = $request->y;
-        $patch->z = $request->z;
+        $patch->x_acceleration = $request->x;
+        $patch->y_acceleration = $request->y;
+        $patch->z_acceleration = $request->z;
         $patch->save();
         return true;
     }
