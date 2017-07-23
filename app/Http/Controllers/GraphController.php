@@ -11,7 +11,7 @@ namespace App\Http\Controllers;
 
 class GraphController
 {
-    public function postgetData()
+    public function postData()
     {
         $patches = Patch::all();
         return view('dataView',['patches'=>$patches]);

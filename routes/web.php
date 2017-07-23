@@ -18,5 +18,5 @@ Route::get('/', function () {
 Route::get('/test', 'PagesController@getTestPage');
 Route::get('/seeData', [
         'as' => 'seeData',
-        'uses'=> 'GraphController@getData'
+        'uses'=> 'GraphController@postData'
     ]);
