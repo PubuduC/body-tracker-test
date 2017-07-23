@@ -14,6 +14,6 @@ class PagesController extends Controller
         $patch->y_acceleration = $request->y;
         $patch->z_acceleration = $request->z;
         $patch->save();
-        return true;
+        return "TRUE";
     }
 }
