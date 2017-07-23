@@ -16,3 +16,4 @@ Route::get('/', function () {
 });
 
 Route::get('/test', 'PagesController@getTestPage');
+Route::get('/seeData', 'GraphController@getData');
