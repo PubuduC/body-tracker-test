@@ -1,3 +1,4 @@
+<php?
 <!doctype html>
 <html lang="{{ app()->getLocale() }}">
 <head>
@@ -66,10 +67,10 @@
 </head>
 <body>
         @foreach($patches as $patch)
-        <h1>{{$patch->id}}</h1>
-        <h1>{{$patch->x_acceleration}}</h1>
-        <h1>{{$patch->y_acceleration}}</h1>
-        <h1>{{$patch->z_acceleration}}</h1>
+        <h4>{{$patch->id}}</h4>
+        <h4>{{$patch->x_acceleration}}</h4>
+        <h4>{{$patch->y_acceleration}}</h4>
+        <h4>{{$patch->z_acceleration}}</h4>
         @endforeach
 
 </body>
