@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 class PagesController extends Controller
 {
     public function getTestPage(Request $request){
-        return view('pages.test')->with("content", $request);
+//        return view('pages.test')->with("content", $request);
+        return true;
     }
 }
