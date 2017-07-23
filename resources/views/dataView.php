@@ -67,10 +67,10 @@
 <body>
 <div class="flex-center position-ref full-height">
         @foreach($patches as $patch)
-        <h1>{{$patch->id}}</h1>
-        <h1>{{$patch->x_acceleration}}</h1>
-        <h1>{{$patch->y_acceleration}}</h1>
-        <h1>{{$patch->z_acceleration}}</h1>
+        <h1>$patch->id</h1>
+        <h1>$patch->x_acceleration</h1>
+        <h1>$patch->y_acceleration</h1>
+        <h1>$patch->z_acceleration</h1>
         @endforeach
 </div>
 </body>
