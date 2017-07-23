@@ -66,11 +66,7 @@
 </head>
 <body>
 @foreach($patches as $patch)
-    <h4>x_acceleration: {{$patch->x_acceleration}}</h4>
-    <h4>y_acceleration: {{$patch->y_acceleration}}</h4>
-    <h4>z_acceleration: {{$patch->z_acceleration}}</h4>
-    <h4>z_acceleration: {{$patch->z_acceleration}}</h4>
-    <h4>created_at: {{$patch->created_at}}</h4>
+    <h4>x_acceleration: {{$patch->x_acceleration}} y_acceleration: {{$patch->y_acceleration}} z_acceleration: {{$patch->z_acceleration}} created_at: {{$patch->created_at}}</h4>
 @endforeach
 
 </body>
