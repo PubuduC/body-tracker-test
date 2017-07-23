@@ -16,4 +16,7 @@ Route::get('/', function () {
 });
 
 Route::get('/test', 'PagesController@getTestPage');
-Route::get('/seeData', 'GraphController@getData');
+Route::get('/seeData', [
+        'as' => 'seeData',
+        'uses'=> 'GraphController@getData'
+    ]);
