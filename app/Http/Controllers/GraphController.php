@@ -7,7 +7,7 @@
  */
 
 namespace App\Http\Controllers;
-
+use App\Patch;
 
 class GraphController
 {
