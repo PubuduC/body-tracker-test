@@ -1,4 +1,3 @@
-<php?
 <!doctype html>
 <html lang="{{ app()->getLocale() }}">
 <head>
@@ -66,6 +65,7 @@
     </style>
 </head>
 <body>
+        var_dump($patches);
         @foreach($patches as $patch)
         <h4>{{$patch->id}}</h4>
         <h4>{{$patch->x_acceleration}}</h4>
